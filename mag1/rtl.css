@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Droid Arabic Kufi";
+    font-style: normal;
+    font-weight: 400;
+    src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff2") format("woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Droid Arabic Kufi";
+    font-style: normal;
+    font-weight: 700;
+    src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff2") format("woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Droid Arabic Naskh";
+    font-style: normal;
+    font-weight: 400;
+    src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.woff2") format("woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Droid Arabic Naskh";
+    font-style: normal;
+    font-weight: 700;
+    src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.woff2") format("woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.ttf") format("truetype");
+}
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+	font-family: "Droid Arabic Naskh","Droid Arabic Kufi" !important ;
+}
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6, h7, figcaption, .mega-menu-link, h6 span {
+  font-family: "Droid Arabic Kufi" !important;
+}
+
+#main-nav li { float:right}
+#main-nav ul li ul {right:0 ; left:auto}
+
+
+.subscript input[type="text"] {
+  padding: 9px;
+  text-align: left;
+}
+
+.subscript input[type="submit"] {
+  right: 17px;
+}
+
+
+.sec_head,.mega-block-title {
+  text-align: right;
+}
+
+.rp .owl-controls {
+  left: 1%;
+  right: auto;
+  top: -35px;
+}
+
+
+
+
+.side {
+  float: left;
+}
+
+
+.left-side {
+  margin-right: 0%;
+}
+
+.right-side {
+  margin-right: 2%;
+}
+
+.first-nav form {
+  float: left;
+}
+
+.sec-head-flash,.nv .owl-controls  {
+  right: auto;
+  left: 0;
+}
+
+.rmh5 {
+  float: left;
+}
+
+
+.mega-menu {
+  text-align: right !important;
+}
+
+
+
+.nesf {
+  float: right;
+}
+
+.entry-title a {
+  float: right;
+}
+
+
+
+.comments {
+  direction: ltr;
+}
+
+

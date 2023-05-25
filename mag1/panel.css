@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+.input_section {
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	background: #f9f9f9;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.option_input label {
+	font-size: 12px;
+	font-weight: 700;
+	width: 15%;
+	display: block;
+	float: left;
+}
+
+.option_input {
+	border-bottom: 1px dashed #ededed;
+	padding: 30px 10px;
+}
+
+.option_input small {
+	display: block;
+	float: right;
+	width: 40%;
+	color: #999;
+}
+
+.option_input input[type="text"], .option_input select {
+	width: 40%;
+	font-size: 12px;
+	padding: 4px;
+	color: #333;
+	line-height: 1em;
+	background: #f3f3f3;
+}
+
+.option_input input:focus, .option_input textarea:focus {
+	background: #fff;
+}
+
+.option_input textarea {
+	width: 40%;
+	height: 175px;
+	font-size: 12px;
+	padding: 4px;
+	color: #333;
+	line-height: 1.5em;
+	background: #f3f3f3;
+}
+.input_title h3 {
+	color: #464646;
+	cursor: pointer;
+	float: right;
+	font-family: tahoma;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 0 0;
+	text-shadow: 0 1px 0 #ffffff;
+	width: 83%;
+}
+hr, .hr {
+	background: rgba(0, 0, 0, 0) url("img/separator.png") repeat-x scroll center center;
+	border: 0 none;
+	clear: both;
+	height: 19px;
+	margin: 30px 0;
+	width: 100%;
+}
+.input_title {
+	cursor: pointer;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding: 7px 10px;
+	background-color: #F1F1F1;
+	background-image: -moz-linear-gradient(center top, #F9F9F9, #ECECEC);
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1;
+	border-bottom-color: #DFDFDF;
+	box-shadow: 0 1px 0 #FFFFFF;
+}
+.input_title h3 img {
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.input_title span.submit {
+	display: block;
+	float: left;
+	margin: 0 20px;
+	padding: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+form > p.submit {
+	float: right;
+	padding: 0;
+	margin-right: 30px;
+}
+.options_wrap > ul li {
+	display: inline;
+	margin-right: 5px;
+}
+.content_options .message {
+	margin: 14px;
+	text-align: center;
+}
+.footer-credit {
+	margin-top: 60px
+}
+.btn {
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding: 6px 12px;
+	text-align: center;
+	margin: auto 1%;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+
+.btn-info {
+	background-color: #E57478;
+	border-color: #E57478;
+	color: #fff;
+}
+
+
+.btn-default {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #333;
+}
+
+
+.btn-success {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	color: #fff;
+}
+
+
+.btn-warning {
+	background-color: #f0ad4e;
+	border-color: #eea236;
+	color: #fff;
+}
+
+
+.btn.active, .btn:active {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.105) inset;
+	outline: 0 none;
+}
+
+.example-image-link {
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 0;
+  margin: 2%;
+  padding: 2px;
+  transition: background-color 0.5s ease-out 0s;
+}
+
+.example-image-link:hover {
+  background-color: #4ae;
+  transition: none 0s ease 0s ;
+}
+
+
+
+
+
+.message .btn {
+  margin-left: 7%;
+  margin-right: 7%;
+}

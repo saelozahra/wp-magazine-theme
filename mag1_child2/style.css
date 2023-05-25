@@ -1,0 +1,158 @@
+﻿/*
+ Theme Name:Magazin3
+ Theme URI:		http://wp-wordpress-themes.com/Maganize1/
+ Description:	For Davar DarAli
+ Author:		saelozahra
+ Author URI:	http://saelozahra.ir
+ Template:mag1
+ Version:      1.0.0
+ Text Domain: Maganize1
+*/
+ 
+@import url("../mag1/style.css");
+ 
+
+
+.rmh5{display:none;}
+.rp_outer{height:auto !important}
+
+.popular li .by,.popular li .date, .popular li .cap {
+  max-width:65%;
+}
+
+.popular li .by {
+  color: #ec686f;
+  margin-top: 5px;
+  padding-left: 1px;
+}
+
+.popular li img {
+  float: left;
+  margin-right: 8px;
+  max-width: 30%;
+  height: auto;
+}
+
+
+.right-side .nv {
+  margin: 5% auto 0;
+}
+
+
+
+
+
+
+.home .rp_i {
+  margin: auto 2%;
+  width: 96% !important;
+}
+
+
+
+
+
+
+
+
+#categories {
+  background-color: #ffffff;
+  border: 1px solid #e9e9e9;
+  margin: 0 auto 1.5%;
+  float: right;
+  width: 100%;
+  text-align:center;
+}
+
+
+#categories ul li {
+  height: 110px;
+  width: 110px;
+  float: none;
+  display: inline-block;
+}
+
+#categories ul li:hover .opacity {
+  opacity:1;
+}
+
+
+
+
+header .nesf {
+  color: #333;
+  padding: 0.5% 1%;
+}
+
+
+
+
+
+
+.social_head a {
+  background-image: url("./img/head-nav-social3.png");
+  margin: 4% auto 0;
+}
+
+.social_head a:hover {
+  background-color: rgba(100, 100, 100, 0.1);
+  border: medium none;
+}
+
+
+
+.ticker ,.ticker a {
+  color: #222 !important;
+}
+
+
+.top_weather{display:none ; opacity:0;}
+
+#main-nav a:hover, #main-nav ul li.current-menu-item a, #main-nav ul li.current_page_ancestor a, #main-nav ul li.current-menu-ancestor a, #main-nav ul li.current_page_item a, #main-nav ul li:hover > a{background-color:#EE6B71 !important;}
+
+#main-nav a:hover, #main-nav ul li.current-menu-item a, #main-nav ul li.current_page_ancestor a, #main-nav ul li.current-menu-ancestor a, #main-nav ul li.current_page_item a, #main-nav ul li:hover > a{color:#fff !important;}
+
+
+main nav.first-nav ul {
+  border-color: #EE6B71 !important;
+}
+
+
+.ticker-title span {
+  color: #D66468 !important;
+}
+
+
+
+.ln .ln_i:nth-child(even) .fa { background-color: #FCC76B !important; }
+.ln .ln_i:nth-child(2) .fa { background-color: #ED6B70 !important; }
+.ln .ln_i:nth-child(odd) .fa { background-color: #19C48F !important; }
+
+
+.subscript input[type="submit"],.side .tag a:hover{ background-color: #ED6B70 !important; }
+
+.rmh5 a{color: #ED6B70 !important;}
+
+.advertise img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+.rpi {
+  float: right;
+  margin: 1% 0.5%;
+  padding: 0;
+  width: 32%;
+}
+
+
+.rpi .hover {
+  right: 0%;
+  width: 100%;
+  background-color: rgba(66, 66, 66, 0.2);
+}

@@ -1,0 +1,97 @@
+﻿/*
+ Theme Name:Magazin2
+ Theme URI:		http://wp-wordpress-themes.com/Maganize1/
+ Description:	For Davar DarAli
+ Author:		saelozahra
+ Author URI:	http://saelozahra.ir
+ Template:mag1
+ Version:      1.0.0
+ Text Domain: Maganize1
+*/
+ 
+@import url("../mag1/style.css");
+ 
+
+.categories2 ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 2% 4%;
+  font-size: 90%;
+}
+
+
+.categories2 ul li:hover,.categories2 ul li:hover a{color:#EC686F;}
+
+
+
+
+.popular li .by,.popular li .date, .popular li .cap {
+  max-width:65%;
+}
+
+.popular li .by {
+  color: #ec686f;
+  margin-top: 5px;
+  padding-left: 1px;
+}
+
+.popular li img {
+  float: left;
+  margin-right: 8px;
+  max-width: 30%;
+  height: auto;
+}
+
+
+.right-side .nv {
+  margin: 5% auto 0;
+}
+
+
+
+
+.oa {
+  display: block;
+}
+
+
+.filter_hover {
+  background-color: #ec686f;
+}
+
+
+
+
+
+
+
+
+.rpi {
+  margin: 1% 0.5%;
+  padding: 0;
+}
+
+
+
+.rp_i .img {
+  height: 150px;
+}
+
+
+
+@media (min-width: 800px) {
+	.rpi {
+	  float: right;
+	  width: 32%;
+	}
+}
+
+
+.rpi .hover {
+  right: 0%;
+  width: 100%;
+  background-color: rgba(66, 66, 66, 0.2);
+}
+
+
+
+
